@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <form>
+  <input type="button" value="GET" (click)="getmethod();">
+    </form>
+  {{name}}
+  </div>
+  <div>
+  <form>
+  <input type="text" name="name1" placeholder="string" [(ngModel)]="name">
+  <input type="number" name="age1" placeholder="number" [(ngModel)]="age">
+  <input type="button" value="POST" (click)="postmethod()">
+</form>
+  </div>
+
+
